@@ -46,7 +46,7 @@ When using recursion, there is stack data structure will be used. Any time a fun
 * `document.getElementById()`
 #### Implementation
 ##### Base Case
-It is important to have a base case in recursion otherwise the programme will keep running until out of memory. The base case is a condition indicating it should stop at this point.
+It is important to have a base case in recursion otherwise the programme will keep running until stack overflow. The base case is a condition indicating it should stop at this point.
 ##### Recursive input
 The input should be changed each time for next recursion.
 
