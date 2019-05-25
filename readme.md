@@ -7,8 +7,8 @@ A series of steps to accomplish a task.
 ### What is data structure?
 A collection of data to provide efficient access and modification.
 ### How to write an algorithm?
-* Understand the final goal
-* Think about the pathway to the goal
+* Understand the final goal of this algorithm
+* Think about the pathway to the goal from the input to the output
 * Break it down to pieces
 * Solve them and try to simplify them
 * Review and refactor
