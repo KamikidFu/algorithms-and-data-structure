@@ -3,7 +3,7 @@
 
 ## Topics
 ### Common Patterns
-> See *CommonPatterns.js*
+> See [*CommonPatterns.js*](https://github.com/KamikidFu/algorithms-and-data-structure/blob/master/JavaScript/CommonPatterns.js)
 ---
 #### Frequency Count
 **Goal:**
