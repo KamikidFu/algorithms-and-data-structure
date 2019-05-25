@@ -23,7 +23,7 @@ Normally using Big-O notation, but there are Big-Theta and Big-Omega notations f
 >* [Analysis of algorithms (Wikipedia)](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
 
 ## Meta
-**Author**: Kamikid
+**Author**: [Kamikid](http://www.kamikid.me/)
 ### Reference
 #### Java
 
