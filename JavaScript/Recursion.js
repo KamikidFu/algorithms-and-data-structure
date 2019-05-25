@@ -22,3 +22,13 @@ function factorial(num) {
 
 console.log(factorial(5));
 console.log(factorial(0));
+
+function fib(num) {
+    //Base case
+    if(num<=2) return 1;
+    //Next recursions
+    return fib(num-1)+fib(num-2);
+}
+
+console.log(fib(10));
+console.log(fib(1));

@@ -53,3 +53,4 @@ To simplify a normal routine using loop.
 **Example Tasks:**
 1. Write an algorithm named `sumRange()` which accepts one number and output the total sum from 1 to this number.
 2. Write an algorithm named `factorial()` which allows one number and calculate the factorial result of this number.
+3. Write an algorithm named `fib()` which accepts one number and calculate the sum of its fibonacci numbers.
