@@ -51,4 +51,5 @@ To divide a data set into smaller chunks and then repeat a process with a subset
 To simplify a normal routine using loop.
 
 **Example Tasks:**
-1. Write an algorithm named `sumRange` which accepts one number and output the total sum from 1 to this number.
+1. Write an algorithm named `sumRange()` which accepts one number and output the total sum from 1 to this number.
+2. Write an algorithm named `factorial()` which allows one number and calculate the factorial result of this number.
