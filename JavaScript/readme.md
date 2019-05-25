@@ -12,7 +12,7 @@ To avoid nested looping and reduce the time complexity
 
 **Example Tasks:**
 
-1. Write an algorithm named `isSame` which accepts two arrays to check if they have identical elements.
+1. Write an algorithm named `isSquared` which accepts two arrays to check if they have identical elements.
 2. Write an algorithm named `isAnagram` which allows two strings and determine if they are anagram.
 
 ---
@@ -23,7 +23,7 @@ To create different pointer to point at different index or position
 
 **Example Tasks:**
 
-1. Write an algorithm names `pickZeroSum` which accepts an array of integers and output pairs of integers which the sum of these two is zero.
+1. Write an algorithm names `pickZeroSum` which accepts a sorted array of integers and output pairs of integers which the sum of these two is zero.
 2. Write an algorithm names `countUniqueValue` which allows a sorted array of integers and output how many unique integers in the array.
 ---
 #### Sliding Window
@@ -34,7 +34,6 @@ To find a meaningful slice in an array.
 **Example Tasks:**
 
 1. Write an algorithm named `maxSubarraySum` which uses an array of integers and an integer number determining the subarray size to output the maximum sum.
-2. Write an algorithm named `findLongestUniqueSubstring` which accepts a string and output the longest substring with all unique characters.
 ---
 #### Divide and Conquer
 **Goal:**
