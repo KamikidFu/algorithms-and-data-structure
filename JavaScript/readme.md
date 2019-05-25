@@ -42,3 +42,13 @@ To divide a data set into smaller chunks and then repeat a process with a subset
 
 **Example Tasks:**
 1. Write an algorithm named `binarySearch` which needs a sorted array of integer and a number which is this algorithm looking for.
+---
+### Recursion
+> See [*Recursion.js*](https://github.com/KamikidFu/algorithms-and-data-structure/blob/master/JavaScript/Recursion.js)
+
+**Goal:**
+
+To simplify a normal routine using loop.
+
+**Example Tasks:**
+1. Write an algorithm named `sumRange` which accepts one number and output the total sum from 1 to this number.
