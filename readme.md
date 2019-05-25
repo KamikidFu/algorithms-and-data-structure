@@ -32,7 +32,23 @@ There are some ways named as problem solving patterns which are:
 * Backtracking
 * etc...
 
+## Algorithm Topics
+### Recursion
+*A function that will call itself.*
 
+Recursion usually used in traversal problems. Somehow it is not necessary to implement a function in a recursive way because it may be clearer when using iteration. For the best performance, the recursion needs to be a tail recursion, which means calling the same function at somewhere near the end of the whole function.
+
+#### Call Stack
+When using recursion, there is stack data structure will be used. Any time a function is invoked, it will be pushed onto stack. When the function will return, it will be poped from stack.
+
+#### Examples:
+* `JSON.parse()`/`JSON.stringify()`
+* `document.getElementById()`
+#### Implementation
+##### Base Case
+It is important to have a base case in recursion otherwise the programme will keep running until out of memory. The base case is a condition indicating it should stop at this point.
+##### Recursive input
+The input should be changed each time for next recursion.
 
 ## Meta
 **Author**: [Kamikid](http://www.kamikid.me/)
