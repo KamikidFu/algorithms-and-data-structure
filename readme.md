@@ -50,6 +50,20 @@ It is important to have a base case in recursion otherwise the programme will ke
 ##### Recursive input
 The input should be changed each time for next recursion.
 
+### Search
+*To find meaningful data*
+
+Search is a common algorithm to find something in a collection of data.
+
+##### Examples:
+* `indexOf()`/`includes()`/`find()` in JavaScript
+
+##### Implementation
+* Linear Search
+* Binary Search
+* etc
+
+
 ## Meta
 **Author**: [Kamikid](http://www.kamikid.me/)
 ### Reference
