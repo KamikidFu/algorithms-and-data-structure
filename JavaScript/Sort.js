@@ -3,6 +3,29 @@ const swap = (arr, index1, index2) => {
     [arr[index1], arr[index2]] = [arr[index2], arr[index1]];
 };
 
+//Write merge function
+//This implementation uses array's shift() build-in method
+const merge = (arr1, arr2) => {
+    //Set the return array
+    let arrReturn = [];
+    //The total merge size should be the sum of two arrays lengths.
+    let mergeSize = arr1.length+arr2.length-1;
+    //A loop using flag to put each element into array
+    for(let flag = 0; flag <= mergeSize; flag++){
+        if(arr1.length === 0){
+            arrReturn[flag] = arr2.shift();
+        }else if(arr2.length === 0){
+            arrReturn[flag] = arr1.shift();
+        }else if(arr1[0]<arr2[0]){
+            arrReturn[flag]=arr1.shift();
+        }else{
+            arrReturn[flag]=arr2.shift();
+        }
+    }
+    //Return merged array
+    return arrReturn;
+};
+
 function BubbleSort(arr) {
     //In Bubble Sort, we are going to bubble
     //the max or min one to the end of array by swapping
@@ -100,29 +123,6 @@ function InsertionSort(arr) {
 }
 
 function MergeSort(arr) {
-    //Write merge function
-    //This implementation uses array's shift() build-in method
-    const merge = (arr1, arr2) => {
-        //Set the return array
-        let arrReturn = [];
-        //The total merge size should be the sum of two arrays lengths.
-        let mergeSize = arr1.length+arr2.length-1;
-        //A loop using flag to put each element into array
-        for(let flag = 0; flag <= mergeSize; flag++){
-            if(arr1.length === 0){
-                arrReturn[flag] = arr2.shift();
-            }else if(arr2.length === 0){
-                arrReturn[flag] = arr1.shift();
-            }else if(arr1[0]<arr2[0]){
-                arrReturn[flag]=arr1.shift();
-            }else{
-                arrReturn[flag]=arr2.shift();
-            }
-        }
-        //Return merged array
-        return arrReturn;
-    };
-
     //Check if the array's length is 1, then just return
     if(arr.length <= 1) return arr;
     //Get the middle point of array length
