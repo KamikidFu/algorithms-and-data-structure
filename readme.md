@@ -65,6 +65,7 @@ Search is a common algorithm to find something in a collection of data.
 
 ### Sort
 *To sort a collection of data in an order*
+> See [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 
 Sort is also a common algorithm to sort data into an order.
 
