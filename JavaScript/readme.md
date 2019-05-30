@@ -73,6 +73,14 @@ To find an element in a collection.
 
 To sort the elements in order.
 
+> JavaScript has a build-in function named `sort()`.
+> However, it is somehow not quite reliable. 
+> For example:
+> `[6, 4, 15, 10].sort(); -> [10, 15, 4, 6]`
+> Which is not kind of sorted. 
+> So for JS, you can put a function as an argument, a comparison function.
+> `[6, 4, 15, 10].sort((num1, num2) => {return num1 - num2}); -> [4, 6, 10, 15]`
+
 **Example Takes:**
 All the functions accept one array and may have one more argument indicating the order.
 1. `BubbleSort()`
