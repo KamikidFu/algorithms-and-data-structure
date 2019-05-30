@@ -63,6 +63,28 @@ Search is a common algorithm to find something in a collection of data.
 * Binary Search
 * etc
 
+### Sort
+*To sort a collection of data in an order*
+
+Sort is also a common algorithm to sort data into an order.
+
+##### Implementation
+* `BubbleSort()`
+* `SelectionSort()`
+* `InsertionSort()`
+* `MergeSort()`
+* `QuickSort()`
+* `RadixSort()`
+
+##### Details
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+4. Merge Sort
+5. Quick Sort
+6. Radix Sort
+
+
 
 ## Meta
 **Author**: [Kamikid](http://www.kamikid.me/)
