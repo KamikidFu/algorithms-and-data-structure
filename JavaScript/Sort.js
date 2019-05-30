@@ -71,7 +71,32 @@ function SelectionSort(arr) {
 }
 
 function InsertionSort(arr) {
+    //Insertion sort is to insert value to a smaller ordered array and grow bigger
+    let insertValue, insertIndex;
+    //The outer loop will narrow down the size of current small array
+    for(let outer = 1;outer<arr.length;outer++){
+        //Initialise the insert value to be the last element in the array
+        //And the insert index is the outer index
+        insertValue = arr[outer];
+        insertIndex = outer;
+        //The inner loop will loop back from the end of array to insert proper value
+        for(let inner = outer - 1;inner>=0;inner--){
+            //If the current element is larger than insert value
+            if(arr[inner]>insertValue){
+                //Change the order by moving backwards
+                arr[inner+1]=arr[inner];
 
+                //You can change the inner index to insert value
+                // arr[inner] = insertValue;
+
+                //Or you can modify the insertIndex variable to record
+                insertIndex = inner;
+            }
+        }
+        //If you use the insert index, we need to check if the insertIndex is the outer
+        if(insertIndex !== outer) arr[insertIndex]=insertValue;
+    }
+    return arr;
 }
 
 function MergeSort() {
@@ -87,4 +112,4 @@ function RadixSort() {
 }
 
 let arr = [2,5,3,6,1,4];
-console.log(SelectionSort(arr));
+console.log(InsertionSort(arr));
