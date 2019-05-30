@@ -56,7 +56,7 @@ The input should be changed each time for next recursion.
 Search is a common algorithm to find something in a collection of data.
 
 ##### Examples:
-* `indexOf()`/`includes()`/`find()` in JavaScript
+* `indexOf()`/`includes()`/`find()` or similar
 
 ##### Implementation
 * Linear Search
