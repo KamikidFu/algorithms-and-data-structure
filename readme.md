@@ -1,5 +1,8 @@
-# Algorithms and data structures
+# Algorithms and data structures 
+
 *An overall note about algorithms and data structures repo*
+
+[![Generic badge](https://img.shields.io/badge/Under_Construction%3F-Yes-BLUE.svg)](https://shields.io/)
 
 ## Intro
 ### What is algorithm?
