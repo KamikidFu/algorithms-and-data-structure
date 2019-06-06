@@ -22,3 +22,16 @@ Given an array, from the left to the right, return each number's index of where 
 **Input:** [1,3,1,2,1]
 **Output:** [-1,-1,0,-1,0]
 
+---
+
+### No.2 Product of Array Except Self
+#### Statement
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+*Source: [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/)*
+
+*Constrains: Please solve it without division and in O(n).*
+
+#### Examples
+**Input:** [1,2,3,4]
+**Output:** [24,12,8,6]
